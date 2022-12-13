@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
-import { Card, CardContent, TextField, Typography, Grid, Button, Box, AppBar, Toolbar, IconButton } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
+import { Card, CardContent, TextField, Typography, Grid, Button } from "@mui/material";
 import "./home.css";
 
 const UpdateComponent = () => {
@@ -62,24 +61,6 @@ const UpdateComponent = () => {
     return (
         <>
             <div id="UpdatePage">
-                <Box sx={{ flexGrow: 1 }}>
-                    <AppBar position="static">
-                        <Toolbar>
-                            <IconButton
-                                size="large"
-                                edge="start"
-                                color="inherit"
-                                aria-label="menu"
-                                sx={{ mr: 2 }}
-                            >
-                                <MenuIcon />
-                            </IconButton>
-                            <Typography variant="h6" component="div" id="updateTypo" sx={{ flexGrow: 1 }}>
-                                Update Url
-                            </Typography>
-                        </Toolbar>
-                    </AppBar>
-                </Box>
                 <Grid container>
                     <Card id="cardUpdate">
                         <CardContent>
