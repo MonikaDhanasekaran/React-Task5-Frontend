@@ -1,0 +1,136 @@
+/* Login */
+
+/* Login Div */
+
+#loginPage{
+    background-image: url("../images/login.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20cm;
+    position: fixed;
+}
+
+/* Card Login */
+
+#cardLogin{
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 8%;
+    border-radius: 30px;
+}
+
+/* Typography Login */
+
+#loginTypo{
+    font-family: "Ink Free";
+    font-size: 40px;
+}
+
+/* Login Button */
+
+#loginButton{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Register */
+
+/* Register Div */
+
+#registerPage{
+    background-image: url("../images/register.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20cm;
+    position: fixed;
+}
+
+/* Card Register */
+
+#cardRegister{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
+/* Typography Register */
+
+#registerTypo{
+    font-family: "Ink Free";
+    font-size: 40px;
+}
+
+/* Register Button */
+
+#registerButton{
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Forgot Password */
+
+/* Forgot Password Div */
+
+#forgotPasswordPage{
+    background-image: url("../images/accountVerification.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20cm;
+    position: fixed;
+}
+
+/* Card ForgotPassword */
+
+#cardForgotPassword{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 13%;
+    border-radius: 30px;
+}
+
+/* ForgotPassword Typography */
+
+#forgotPasswordTypo{
+    font-family: "Ink Free";
+    font-size: 35px;
+}
+
+/* Forgot Passsword Button */
+
+#forgotPasswordButton{
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Change Password */
+
+#changePasswordPage{
+    background-image: url("../images/changePassword.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20cm;
+    position: fixed;
+}
+
+/* Change Password Card */
+
+#cardChangePassword{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 12%;
+    border-radius: 40px;
+}
+
+/* ChangePassword Typography */
+
+#changePasswordTypo{
+    font-family: "Ink Free";
+    font-size: 35px;
+}
+
+/* Change Passsword Button */
+
+#changePasswordButton{
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
